@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">    
+        <div id="bodyTop" class="body-top">
+            <div class="topbar-container">
+                <div class="topbar">            
+                    <div class="left">
+                        <span id="sobre" class="topbar-item">Sobre a STS</span>
+                        <span id="servico" class="topbar-item">Serviços</span>
+                        <span id="contato" class="topbar-item">Contato</span>
+                    </div>
+                    <div class="logo">
+                        <img src="./logo/Simple Technologic so logo.png" alt="STS" class="logo-item">
+                    </div>
+                </div>
+            </div>
+            <div class="flavor-container">
+                <span id="flavor" class="flavor-text">Simple Thecnologic Solution</span>
+                <div id="contato-form" class="form-container">
+                    <form class="cform" action="https://formsubmit.co/service@ststechnologic.com" method="POST">
+                        <span>Entre em contato através do nosso email service@ststechnologic.com ou do telefone (21)xxxxx-xxxx</span>
+                        <hr class="form-hr">
+                        <span>Ou use o formulário abaixo:</span>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/#">
+                        <input type="hidden" name="_autoresponse" value="Obrigado por entrar em contato conosco. Responderemos assim que avaliarmos a sua solicitação.">
+                        <input id="form-email" class="form-input" type="email" name="email" placeholder=" Seu email">
+                        <textarea id="form-text" class="form-input form-coment" rows="4" cols="50" name="textarea" placeholder=" Sua solicitação"></textarea>
+                        <button id="form-btn" class="form-submit" type="subimit" disabled>Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="body-bottom">
+        </div>
+    </div>
+
+</body>
+<script src="sts.js"></script>
+</html>
